@@ -1,4 +1,4 @@
-# Toy Shop Ecommerce Site #
+# Toy Shop Ecommerce Site Design #
 
 This is a simple UI / IX Design for a shopping site. Easy to setup
 

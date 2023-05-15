@@ -1,0 +1,23 @@
+ErrorDocument 404 /404.html
+
+ErrorDocument 500 /500.html
+
+#remove html file extension-e.g. https://example.com/file.html will become https://example.com/file
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+#remove php file extension-e.g. https://example.com/file.php will become https://example.com/file 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php?page=$1 [L,QSA]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.example.com
+RewriteRule (.*) http://example.com/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE] 

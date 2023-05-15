@@ -1,0 +1,119 @@
+/* width */
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background-color: #e6e6e6;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #b3b3b3;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888888;
+}
+
+
+/* width */
+
+.chating_panel::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+/* Track */
+
+.chating_panel::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+/* Handle */
+
+.chating_panel::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+
+/* Handle on hover */
+
+.chating_panel::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+
+/* width */
+
+.navbar-account-dropdown::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+
+/* Track */
+
+.navbar-account-dropdown::-webkit-scrollbar-track {
+    background-color: #e6e6e6;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+/* Handle */
+
+.navbar-account-dropdown::-webkit-scrollbar-thumb {
+    background: #b3b3b3;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+/* Handle on hover */
+
+.navbar-account-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #888888;
+}
+
+
+/* width */
+
+.navbar-app-dropdown::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+
+/* Track */
+
+.navbar-app-dropdown::-webkit-scrollbar-track {
+    background-color: #e6e6e6;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+/* Handle */
+
+.navbar-app-dropdown::-webkit-scrollbar-thumb {
+    background: #b3b3b3;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+/* Handle on hover */
+
+.navbar-app-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #888888;
+}
